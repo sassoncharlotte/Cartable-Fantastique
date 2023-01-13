@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../css/choose.css">
+        <title>{{exercise_number}}</title>
+        <script src="../js/choose.js"></script>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+
+        <button id="previous_page" onclick="hideChoices()" style="display: none;"><</button>
+        <button id="next_page" onclick="hideChoices()" style="display: none;">></button>
+
+        <div id="central_block">
+            <div id="guideline">{{guideline}}</div>
+            <div id="additional_guideline">{{additional_guideline}}</div>
+            <div id="exercise_text"><p id="page0" style="display: block;">{{exercise_text}}</p></div>
+        </div>
+        
+        <script src="../js/front.js" id="script_front" lines_per_page="{{lines_per_page}}"></script>
+    </body>
+</html>

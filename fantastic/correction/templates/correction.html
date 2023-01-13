@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    {{head}}
+    <link rel="stylesheet" href="/static/correction.css">
+    <link rel="stylesheet" href="/static/fontawesome-free-6.0.0-beta2-web/css/all.css">
+</head>
+<body>
+<div id="first_part">
+{{ body }}
+</div>
+<div id="second_part">
+
+    <div id="conversion">
+        <form method="post" id="nice_conversion" value="Bonne Conversion">
+            <div id="nice_conversion_div" class="button_submit" onclick=SubmitCorresponding(this)>
+                <i class="fa fa-check"></i>
+                <input type="submit" id="nice_conversion_button" name="action" value="Bonne Conversion">
+            </div>
+        </form>
+        <form method="post" id="wrong_conversion" value="Mauvaise Conversion">
+            <div id="wrong_conversion_div" class="button_submit" onclick=SubmitCorresponding(this)>
+                <i class="fa fa-times"></i>
+                <input type="submit" id="wrong_conversion_button" name="action" value="Mauvaise Conversion">
+            </div>
+        </form>
+    </div>
+    <div id="new_tag">
+        <form method="post" id="new_tag" value="Générer avec nouveau tag">
+        <div id="upper_tag">
+        <label for="new_tag" id="new_tag_label">Nouveau tag: </label>
+        <select type = "text" name="new_tag" id="new_tag_select">
+            {{tags}}
+        </select>
+        </div>
+        <div id="lower_tag">
+            <div id="new_tag_div" class="button_submit" onclick=SubmitCorresponding(this)>
+                <i class="fa fa-graduation-cap"></i>
+                <input type="submit" id="new_tag_button" name="action" value="Générer avec nouveau tag">
+            </div>
+            <div id="show_prediction_div" class="button_submit" onclick=SubmitCorresponding(this)>
+                <i class="fa fa-search"></i>
+                <input type="submit" id="show_prediction_button" name="action" value="Prédire le tag" onclick="DisplayWaitMessage()">
+            </div>
+        </div>
+        </form>
+    </div>
+    <div id="wrong_extraction">
+        <form method="post" id="wrong_extraction" value="Mauvaise Extraction">
+            <div id="wrong_extraction_div" class="button_submit" onclick=SubmitCorresponding(this)>
+                <i class="fa fa-times"></i>
+                <input type="submit" id="wrong_extraction_button" name="action" value="Mauvaise Extraction">
+            </div>
+        </form>
+        <form method="post" id="show_xml_html" value="XML/HTML">
+            <div id="show_xml_html_div" class="button_submit" onclick=SubmitCorresponding(this)>
+                <i class="fa fa-file"></i>
+                <input type="submit" id="show_xml_html_button" name="action" value="{{to_show}}">
+            </div>
+        </form>
+    </div>
+</div>
+
+<p id="third_part">{{ result }}</p>
+<script src="/static/correction.js" id="script_correction" successor={{successor}} predecessor={{predecessor}}></script> 
+
+</body>
+</html>

@@ -1,0 +1,8 @@
+.DS_Store
+._.DS_Store
+._templates
+__pycache__
+._fontawesome-free-6.0.0-beta2-web
+fontawesome-free-6.0.0-beta2-web
+cartable_fantastique.egg-info
+tagging/models

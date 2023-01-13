@@ -1,0 +1,141 @@
+/* main objective : to be the most fidel to the cahiers fantastiques website */
+
+body {
+	margin: 0;
+	font-family: Arial;
+	font-weight: normal;
+	font-size: 2em;
+}
+
+#central_block {
+	position: relative;
+	margin-left: 4.5vw;
+	margin-right: 4.5vw;
+}
+
+#previous_page {
+	left: 0;
+	position: absolute;
+	width: 3vw;
+	height: 100vh;
+	padding: 0;
+	border: 0;
+	margin: 0;
+	background-color: #ccc;
+}
+
+#next_page {
+	right: 0;
+	position: absolute;
+	width: 3vw;
+	height: 100vh;
+	padding: 0;
+	border: 0;
+	margin: 0;
+	background-color: #ccc;
+}
+
+#guideline {
+	color: black;
+	text-align: center;
+	line-height: 2em;
+	max-height: 231px; /* it was on the cahiers fantastiques website */
+	margin-bottom: 3vh;
+	white-space: pre-wrap;
+	overflow: auto;
+}
+
+#additional_guideline {
+	color: black;
+	text-align: center;
+	line-height: 2em;
+	height: auto;
+	margin-bottom: 5vh;
+}
+
+#exercise_text {
+	line-height: 4em;
+}
+
+#exercise_text p {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.space {
+	white-space: pre-wrap;
+}
+
+.blue {
+	color: #0000ff;
+}
+
+.green {
+	color: #00cc00;
+}
+
+.red {
+	color: #ff0000;
+}
+
+div.mc_menu {
+
+		display:none;
+    border: 1px dashed green;
+    background: white;
+		position: absolute;
+		top:  10px;
+		left: 10px;
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: grey;
+}
+
+.mc_button {
+	font-size: inherit;
+	width: inherit;
+	height: inherit;
+	color:inherit;
+	background: transparent;
+	padding: 5px;
+	border: 2px outset #888;
+
+}
+
+.mc_button_choice {
+    float: left;
+    background: transparent;
+    border: 1px solid black;
+    margin: 15px 5px 15px;
+    font-size: inherit;
+    white-space: nowrap;
+}
+
+.framed {
+	border : 2px solid black;
+	display: inline-block;
+	padding : 10px 10px;
+	height: 36px;
+	line-height: 36px;
+	margin-left: 10px;
+	margin-right: 10px;
+	/* margin : ; */
+}
+
+.color0 {
+	color: #F00;
+}
+
+.color1 {
+	color: #00F;
+}
+
+.color2 {
+	color: #0C0;
+}

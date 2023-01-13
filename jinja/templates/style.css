@@ -1,0 +1,66 @@
+/* main objective : to be the most fidel to the cahiers fantastiques website */
+
+body {
+	margin: 0;
+	font-family: Arial;
+	font-weight: normal;
+}
+#central_block {
+	position: relative;
+	margin-left: 4.5vw;
+	margin-right: 4.5vw;
+}
+button {
+	position: absolute;
+	width: 3vw;
+	height: 100vh;
+	padding: 0;
+	border: 0;
+	margin: 0;
+	background-color: #ccc;
+}
+#previous_page {
+	left: 0;
+}
+#next_page {
+	right: 0;
+}
+#guideline {
+	color: black;
+	text-align: center;
+	font-size: 2em;
+	line-height: 2em;
+	max-height: 231px; /* it was on the cahiers fantastiques website */
+	margin-bottom: 3vh;
+	white-space: pre-wrap;
+	overflow: auto;
+	}
+	
+#additional_guideline {
+	color: black;
+	text-align: center;
+	font-size: 2em;
+	line-height: 1em;
+	height: auto;
+	margin-bottom: 4vh;
+}
+#exercise_text {
+	font-size: 2em;
+	line-height: 4em;
+}
+#exercise_text p {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.space {
+	white-space: pre-wrap;
+}
+.blue {
+	color: #0000ff;
+}
+.green {
+	color: #00cc00;
+}
+.red {
+	color: #ff0000;
+}

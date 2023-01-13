@@ -1,0 +1,115 @@
+/* main objective : to be the most fidel to the cahiers fantastiques website */
+
+body {
+	margin: 0;
+	font-family: Arial;
+	font-weight: normal;
+}
+#central_block {
+	position: relative;
+	margin-left: 4.5vw;
+	margin-right: 4.5vw;
+}
+button {
+	position: absolute;
+	width: 3vw;
+	height: 100vh;
+	padding: 0;
+	border: 0;
+	margin: 0;
+	background-color: #ccc;
+}
+#previous_page {
+	left: 0;
+}
+#next_page {
+	right: 0;
+}
+#guideline {
+	color: black;
+	text-align: center;
+	font-size: 2em;
+	line-height: 2em;
+	max-height: 231px; /* it was on the cahiers fantastiques website */
+	margin-bottom: 3vh;
+	white-space: pre-wrap;
+	overflow: auto;
+}	
+#additional_guideline {
+	color: black;
+	text-align: center;
+	font-size: 2em;
+	line-height: 1em;
+	height: auto;
+	margin-bottom: 4vh;
+}
+#exercise_text {
+	font-size: 2em;
+	line-height: 4em;
+}
+#exercise_text p {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.space {
+	white-space: pre-wrap;
+	padding: 10px 5px;
+	margin: 0px;
+}
+.blue {
+	color: #0000ff;
+}
+.green {
+	color: #00cc00;
+}
+.red {
+	color: #ff0000;
+}
+
+.yellow {
+	background-color: #ffff00;
+}
+.pink {
+	background-color: pink;
+}
+.grey {
+	background-color: grey;
+} 
+.red_bis {
+	background-color: #FFC0CB;
+}
+.blue_bis {
+	background-color: #bbbbff;
+}
+.green_bis {
+	background-color: #bbffbb;
+}
+.white {
+	background-color: white;
+}
+.space {
+	padding: 0;
+}
+.entities {
+	border : 2px dotted transparent;
+	padding : 10px 0px;
+}
+.block {
+	display: block;
+}
+.framed_entities {
+	border : 2px solid black;
+	display: inline-block;
+	padding: 10px 10px;
+	vertical-align: middle;
+	height: 36px;
+	line-height: 36px;
+}
+.framed {
+	border : 2px solid black;
+	display: inline-block;
+	padding : 10px 10px;
+	height: 36px;
+	line-height: 36px;
+	/* margin : ; */
+}
